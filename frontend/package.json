@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint", "//":"not working, there is a known bug and solutions are not resolving"
+    "lint": "next lint",
+    "//": "not working, there is a known bug and solutions are not resolving"
   },
   "dependencies": {
     "@emotion/cache": "^11.7.1",

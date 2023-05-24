@@ -110,3 +110,4 @@ venv.bak/
 # Database
 db.sqlite3
 data/*
+node_modules

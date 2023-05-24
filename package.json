@@ -1,5 +1,9 @@
 {
+  "scripts": {
+    "start": "concurrently \"cd backend && python manage.py runserver\" \"cd frontend && npm run dev\""
+  },
   "dependencies": {
+    "concurrently": "^5.2.0",
     "@emotion/cache": "^11.7.1",
     "@emotion/react": "^11.7.1",
     "@emotion/server": "^11.4.0",
